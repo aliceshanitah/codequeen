@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="IMG-20191025-WA0035.jpg">
+    <title>Document</title>
+    <style>
+        /* decendant selector */
+        ul li {
+            font-size: large;
+            font-style: oblique;
+            color: blue;
+        }
+
+        ul * ol li {
+            padding: 20px;
+            background-color: papayawhip;
+        }
+
+        /* element selector */
+        img {
+            height: 250px;
+
+            border-radius: 50px;
+
+
+        }
+
+        /* id and class selector */
+        .lorem {
+            background-color: royalblue;
+            color: seashell;
+        }
+        /*  */
+        .second > p{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li> Book</li>
+            <li>
+                <ol>
+                    <li>book id</li>
+                    <li>book title</li>
+                    <li>book author</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+    <center>
+        <div>
+            <img src="IMG-20200204-WA0029.jpg" alt="">
+        </div>
+        <div>
+            <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam vero,<br> iusto
+                ipsum consequuntur nam quae, eos tempore<br> provident odio culpa harum architecto sit accusamus<br>,
+                vel eaque tenetur obcaecati accusantium!</p>
+            <h5>OTHER CSS SELECTORS</h5>
+        </div>
+        <div class="second">
+            <P> <br>descendant selector (space)
+<br>child selector (>)
+               <br> adjacent sibling selector (+)
+                <br>general sibling selector (~)
+            </P>
+
+        </div>
+</body>
+</center>
+
+</html>
